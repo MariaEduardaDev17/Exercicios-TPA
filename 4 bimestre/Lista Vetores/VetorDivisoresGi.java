@@ -12,11 +12,11 @@ public class VetorDivisoresGi{
             a[i] = ler.nextInt();
         }
         
-	    for (i = 0; i < TAM; i++) {
-	        System.out.print("Divisores de " + a[i] + ": ");
-            for (j = 1; j <=TAM; j++) {//verifica se cada número j é um divisor de a[i].
+	for (i = 0; i < TAM; i++) {
+	     System.out.print("Divisores de " + a[i] + ": ");
+             for (j = 1; j <=TAM; j++) {//verifica se cada número j é um divisor de a[i].
                 if (a[i] % j == 0) {
-                	 System.out.print(j + " ");
+                	System.out.print(j + " ");
                 }
             }
             System.out.println();
