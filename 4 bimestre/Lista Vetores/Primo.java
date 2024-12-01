@@ -16,8 +16,8 @@ public class Primo {
 	            int n = a[i]; 
 	            divisor = 0; 
 	            
-	    if (n < 2) {
-	        System.out.println(n + " não é primo.");
+	        if (n < 2) {
+	      	  System.out.println(n + " não é primo.");
 		}else {
 			for(j=2; j<a[i]; j++) {
 				if (a[i] % j==0) {
