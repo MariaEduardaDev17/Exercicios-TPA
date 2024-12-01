@@ -38,10 +38,10 @@ public class Intercecao {
 			}
 		}
 		System.out.print("C = [");
-        for (i = 0; i < quant; i++) {
-            System.out.print(c[i]);
-            if (i < quant - 1) {
-            	System.out.print(" ");
+       	       for (i = 0; i < quant; i++) {
+          	  System.out.print(c[i]);
+               if (i < quant - 1) {
+            	  System.out.print(" ");
             }
         }
         System.out.print("]\n");
